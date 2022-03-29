@@ -53,7 +53,7 @@ h1 {
 }
 
 #navigation a:hover {
-    border-bottom: 1px solid #9A031E;
+    color: #9A031E;
 }
 
 .active {
