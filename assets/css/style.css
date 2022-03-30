@@ -15,7 +15,7 @@ body {
 /*headings and logo*/
 
 header {
-    background-color: #faf0ca;
+    background-color: none;
     height: 150px;
 }
 
@@ -49,15 +49,15 @@ h1 {
 
 #navigation a {
     text-decoration: none;
-    color: #FB8B24;
+    color: #5F0F40;
 }
 
 #navigation a:hover {
-    color: #9A031E;
+    color: #E36414;
 }
 
 .active {
-    border-bottom: 1px solid #9A031E;
+    border-bottom: 1px solid #E36414;
 }
 
 /*hero image*/
