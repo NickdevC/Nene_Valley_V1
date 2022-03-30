@@ -12,7 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-/*headings and logo*/
+/* headings and logo */
 
 header {
     background-color: none;
@@ -60,10 +60,10 @@ h1 {
     border-bottom: 1px solid #E36414;
 }
 
-/*hero image*/
+/* hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
 
@@ -76,4 +76,28 @@ h1 {
     background: url('../images/basketball_hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* quote tagline */
+
+#quote-outer {
+    background-color: antiquewhite;
+    height: 260px;
+    width: 100%;
+    float: center;
+}
+
+#quote h1 {
+    font-family: Roboto, sans-serif;
+    text-transform: none;
+    text-align: center;
+    font-size: 320%;
+    letter-spacing: 4px;
+    color: #E36414;
+}
+
+#quote h2 {
+    float: right;
+    margin-right: 20%;
+    text-align: center;
 }
