@@ -121,21 +121,46 @@ hr {
 }
 
 /* about sections of index.html */
-#about-us {
-    height: 1200px;
-}
 
 #welcome {
+    font-family: Alfa Slab One, cursive;
+    font-size: 50px;
     text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
+    letter-spacing: 3px;
+    color: #9A031E;
 }
 
-#about-nene {
-    height: 400px;
+.about-container {
+    float: left;
+    width: 33%;
+    padding: 5px 5px;
 }
 
-.about-right {
-    float: right;
-    text-align: left;
+.about-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-container {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #FB8B24;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+
+.about-container:hover .text-container {
+    bottom: 0;
+    height: 100%;
+}
+
+.about-text {
+
 }
