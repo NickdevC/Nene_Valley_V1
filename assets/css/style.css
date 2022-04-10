@@ -15,7 +15,6 @@ body {
 /* headings and logo */
 
 header {
-    background-color: none;
     height: 150px;
 }
 
@@ -49,7 +48,7 @@ h1 {
 
 #navigation a {
     text-decoration: none;
-    color: #5F0F40;
+    color: #9A031E;
 }
 
 #navigation a:hover {
@@ -122,7 +121,7 @@ hr {
 
 /* about us section*/
 #about-us {
-    width: auto;
+    height: 500px;
     border: none;
     padding: 2% 5%;
 }
@@ -183,3 +182,25 @@ hr {
 .about-text {
     margin: 10% 10%;
 }
+
+
+/* footer */
+footer {
+    height: 150px;
+}
+
+.footer-links {
+    text-align: center;   
+}
+
+.footer-links > li {
+    display: inline;
+}
+
+.footer-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #E36414;
+}
+
