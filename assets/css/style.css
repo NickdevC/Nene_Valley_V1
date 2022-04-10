@@ -204,3 +204,48 @@ footer {
     color: #E36414;
 }
 
+/* fixtures_training.html */
+
+#table, h3 {
+    font-size: 140%;
+    font-weight: bold;
+    margin: auto;
+    width: 75%;
+    padding: 5px;
+}
+
+#table-container {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#fixtures {
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    color: #9A031E;    
+}
+
+#fixtures th {
+    font-size: 120%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(251, 139, 36, .7);
+    color: white;
+}
+
+th, tr {
+    vertical-align: middle;
+}
+
+th, td {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 2px solid #9A031E;
+}
+
+tr:hover {
+    background-color: rgb(251, 139, 36, .7);
+}
