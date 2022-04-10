@@ -209,10 +209,11 @@ footer {
 
 #table, h3 {
     font-size: 140%;
-    font-weight: bold;
+    font-family: Alfa Slab One, cursive ;
+    color: #9A031E;
     margin: auto;
     width: 75%;
-    padding: 5px;
+    padding: 10px;
 }
 
 #table-container {
