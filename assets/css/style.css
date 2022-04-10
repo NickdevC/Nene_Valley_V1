@@ -121,6 +121,13 @@ hr {
 }
 
 /* about sections of index.html */
+#about-us {
+    width: auto;
+    border: none;
+    padding: 2% 5%;
+}
+
+
 
 #welcome {
     font-family: Alfa Slab One, cursive;
@@ -132,14 +139,17 @@ hr {
 
 .about-container {
     position: relative;
+    float: left;
+    height: 400px;
     width: 31%;
-    margin: 3px 3px;
+    margin: 3px 15px;
 }
 
 .about-image {
     display: block;
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
