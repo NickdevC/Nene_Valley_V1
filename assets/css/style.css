@@ -16,6 +16,8 @@ body {
 
 header {
     height: 150px;
+    box-shadow: 5px 5px 5px rgb(15, 76, 92, .4);
+    margin-bottom: 10px;
 }
 
 h1 {
